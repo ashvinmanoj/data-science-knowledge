@@ -1,0 +1,45 @@
+# Data
+.config
+tmp
+data/*
+!data/.gitkeep
+drivers/*
+!drivers/.gitkeep
+
+# C extensions
+*.so
+
+# Packages
+*.zip
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+__pycache__
+.cache
+.ipynb_checkpoints
+
+# logs
+pip-log.txt
+*.log
+*.log.*
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Virtual environments
+/venv
+.python-version
+
+# Spark
+metastore_db
+derby.log
